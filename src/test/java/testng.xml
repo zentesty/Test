@@ -11,4 +11,8 @@
             <class name="CircleTester"/>
         </classes>
     </test>
-</suite>
+    <test name="test3">
+        <classes>
+            <class name="TriangleTester"/>
+        </classes>
+    </test></suite>

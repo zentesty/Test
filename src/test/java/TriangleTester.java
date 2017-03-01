@@ -1,29 +1,25 @@
-import com.zentelia.shapes.Circle;
-
-import org.testng.annotations.Test;
-import static org.testng.Assert.assertTrue;
+import com.zentelia.shapes.Triangle;
+import com.zentelia.shapes.ZenShapes;
 import org.testng.Assert;
-
+import org.testng.annotations.Test;
 
 /**
  * Created by martin-pierreroy on 2017-03-01.
  */
-public class CircleTester {
+public class TriangleTester {
 
     public void InitializeSquare()
     {
         System.out.println("MP - - BEFORE TEST");
-
     }
 
     @Test()
-    public void testCircleSize()
-    {
-        Circle myCircle = new Circle();
+    public void testRight() throws Exception {
+        Triangle myTriangle = new Triangle();
 
-        Assert.assertTrue(myCircle.setSize(212) < 1);
-
+        Assert.assertTrue(myTriangle.setSize(155) < 10);
     }
+
 
 
     public void freeSquare()

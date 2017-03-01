@@ -12,7 +12,7 @@ public class Circle implements ZenShapes {
 
     public int setSize(int nSize) {
         m_diameter = nSize * 6;
-        return 0;
+        return m_diameter;
     }
 
     public int getSize() {
